@@ -1,4 +1,4 @@
-
+library(readr)
 ## Read in file into a dataframe called power
 power<-read_csv2("household_power_consumption.txt", na=c("","NA", "?"), col_types = "ccccccccc")
 
